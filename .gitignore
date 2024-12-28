@@ -1,5 +1,5 @@
 /.vscode
 /build
-/C++
-/image.png
-/qrcode.png
+C++
+image.png
+qrcode.png
