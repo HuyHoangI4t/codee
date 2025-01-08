@@ -1,6 +1,6 @@
 import qrcode
 
-data = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+data = "ai doc la gay"
 
 # Tạo QR Code
 qr = qrcode.QRCode(
