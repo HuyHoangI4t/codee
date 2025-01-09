@@ -76,7 +76,7 @@ def show_ascii_in_window(ascii_art):
     root.mainloop()
 
 # Đường dẫn đến hình ảnh
-image_path = "image.png"  # Thay bằng đường dẫn đến hình ảnh của bạn
+image_path = "pythontest/image.png"  # Thay bằng đường dẫn đến hình ảnh của bạn
 
 # Chuyển hình ảnh thành ASCII art
 ascii_art = image_to_ascii(image_path, new_width=100)
