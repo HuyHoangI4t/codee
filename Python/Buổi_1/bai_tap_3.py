@@ -1,4 +1,3 @@
-print("Nhập 2 số a và b:")
-a = int(input()) ; b = int(input())
+a = int(input("Nhap a: ")) ; b = int(input("Nhap b: "))
 x = ( (a+b) / ( a** (1/3) + b** (1/3)) - (a*b)**(1/3)) / ((a** (1/3) - b** (1/3))** 2)
-print (round(x,1))
+print("Ket qua:",round(x,1))
