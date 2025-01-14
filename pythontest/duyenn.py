@@ -6,3 +6,4 @@ def giai_thua (n):
     return n * giai_thua(n-1)
 
 print(giai_thua(n))
+print 
