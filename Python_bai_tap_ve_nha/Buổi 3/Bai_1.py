@@ -17,7 +17,7 @@ def xuat_dsNV(danh_sach_nv):
     print("Danh sach nhan vien:")
     for nv in danh_sach_nv:
         luong_thang = tinh_luong(nv)
-        print(f"Ma NV: {nv['maNV']}, Ho Ten: {nv['hoten']}, LuongCB: {nv['luongCB']}, Luong Thang: {luong_thang}")
+        print(f"Ma NV: {nv['maNV']} \nHo Ten: {nv['hoten']} \nLuongCB: {nv['luongCB']} \nLuong Thang: {luong_thang}")
 
 def tim_NV(maNV, danh_sach_nv):
     for nv in danh_sach_nv:
