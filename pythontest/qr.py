@@ -1,6 +1,6 @@
 import qrcode
 
-data = "ai doc la gay"
+data = "https://www.facebook.com/conghai.nguyen.52459"
 
 # Tạo QR Code
 qr = qrcode.QRCode(
@@ -14,4 +14,4 @@ qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
 
-img.save("qrcode.png")
+img.save("pythontest/qrcode.png")
