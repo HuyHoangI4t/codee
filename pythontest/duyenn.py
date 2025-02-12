@@ -1,4 +1,16 @@
-list = [("Tiền Giang", 63), ("Long An", 62), ("Vĩnh Long", 64), ("Bình Dương", 60)]
-new_list = sorted(list, key=lambda x: x[1])
-print(f"List ban dau:         {list}")
-print(f"List sau khi sap xep :{new_list}")
+class SinhVien :
+    def __init__(self,ID,name,sexual,year):
+         self.ID = ID
+         self.name = name
+         self.sexual = sexual
+         self.year = year
+   
+while True:
+    print("\nChon chuc nang:")
+    print("1. Them sinh vien")
+    print("2. Cap nhat sinh vien bang ID")
+    print("3. Xoa sinh vien bang ID")
+    print("4. Tim kiem sinh vien theo ten")
+    print("5. Sap xep sinh vien theo diem trung binh")
+    
+    lua_chon = input("Nhap lua chon (1-5): ")
