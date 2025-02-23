@@ -1,6 +1,6 @@
 import qrcode
 
-data = "https://www.facebook.com/conghai.nguyen.52459"
+data = "https://www.facebook.com/nguyen.huy.hoang.2208205"
 
 # Tạo QR Code
 qr = qrcode.QRCode(
